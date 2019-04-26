@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndexBar">
+        <!--设置 选中和非选中的 字体颜色-->
+        <attr name="normalColor" format="color" />
+        <attr name="selectColor" format="color" />
+        <!--索引条中的字体大小-->
+        <attr name="indexSize" format="dimension" />
+    </declare-styleable>
+</resources>
