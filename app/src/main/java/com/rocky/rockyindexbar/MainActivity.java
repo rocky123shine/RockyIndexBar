@@ -9,9 +9,9 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
-import com.rocky.indexbar.FillNameAndSortUtil;
-import com.rocky.indexbar.IndexBar;
-import com.rocky.indexbar.ItemBean;
+import com.rocky.indexbar.indexbar.FillNameAndSortUtil;
+import com.rocky.indexbar.indexbar.IndexBar;
+import com.rocky.indexbar.indexbar.ItemBean;
 
 import java.util.ArrayList;
 import java.util.Arrays;
