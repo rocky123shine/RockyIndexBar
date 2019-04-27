@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.rocky.indexbar.DigitalUtil;
-import com.rocky.indexbar.ItemBean;
+import com.rocky.indexbar.indexbar.DigitalUtil;
+import com.rocky.indexbar.indexbar.ItemBean;
 
 import java.util.List;
 

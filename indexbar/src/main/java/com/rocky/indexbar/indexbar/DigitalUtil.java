@@ -1,4 +1,4 @@
-package com.rocky.indexbar;
+package com.rocky.indexbar.indexbar;
 
 import java.util.regex.Pattern;
 

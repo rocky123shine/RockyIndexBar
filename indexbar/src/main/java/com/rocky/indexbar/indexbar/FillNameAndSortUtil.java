@@ -1,4 +1,4 @@
-package com.rocky.indexbar;
+package com.rocky.indexbar.indexbar;
 
 import android.text.TextUtils;
 
@@ -28,6 +28,7 @@ public class FillNameAndSortUtil {
                 if (!letters.contains("#")) {
                     letters.add("#");
                 }
+                itemBean.setName("#");
                 continue;
             }
             String name = itemBean.getName();

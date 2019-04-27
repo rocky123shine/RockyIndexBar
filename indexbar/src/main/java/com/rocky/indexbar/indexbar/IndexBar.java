@@ -1,4 +1,4 @@
-package com.rocky.indexbar;
+package com.rocky.indexbar.indexbar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,6 +11,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.rocky.indexbar.R;
 
 import java.lang.reflect.Type;
 import java.util.List;

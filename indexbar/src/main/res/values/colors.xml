@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rv_fly_head_bg_color">#FF4081</color>
+    <color name="rv_fly_content_bg_color">#ffaa77</color>
+</resources>

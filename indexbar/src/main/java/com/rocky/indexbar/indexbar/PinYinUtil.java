@@ -1,4 +1,4 @@
-package com.rocky.indexbar;
+package com.rocky.indexbar.indexbar;
 
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;

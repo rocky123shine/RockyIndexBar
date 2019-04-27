@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.rocky.indexbar.IndexBar
+    <com.rocky.indexbar.indexbar.IndexBar
         android:id="@+id/index_bar"
         android:layout_width="30dp"
         android:layout_height="400dp"

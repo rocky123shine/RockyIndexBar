@@ -6,5 +6,12 @@
         <attr name="selectColor" format="color" />
         <!--索引条中的字体大小-->
         <attr name="indexSize" format="dimension" />
+
+    </declare-styleable>
+    <declare-styleable name="IndexRecyclerView">
+        <!--吸附布局-->
+        <attr name="topLayoutId" format="integer" />
+        <attr name="flayTextSize" format="dimension" />
+        <attr name="flayTextColor" format="color" />
     </declare-styleable>
 </resources>
