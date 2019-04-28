@@ -38,9 +38,10 @@ public class FillNameAndSortUtil {
                 letter = name.substring(0, 1).toUpperCase();
 
             } else {
-                letter = itemBean.getContent().substring(0,1).toUpperCase();
+                letter = itemBean.getContent().substring(0, 1).toUpperCase();
             }
             System.out.println(letter);
+            letter = CharacterUtitl.isChinese(letter) ? PinYinUtil.getInstance().toPinYin(letter).substring(0, 1).toUpperCase() : letter;
             itemBean.setName(letter);
             if (!letters.contains(letter)) {
                 letters.add(letter);
