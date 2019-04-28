@@ -20,9 +20,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    tasks.withType(JavaCompile) {
-        options.encoding = "UTF-8"
-    }
+
 
 }
 
