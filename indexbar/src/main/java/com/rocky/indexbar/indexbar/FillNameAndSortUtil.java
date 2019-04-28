@@ -23,12 +23,13 @@ public class FillNameAndSortUtil {
     public void fillNameAndSort(List<ItemBean> itemBeans, List<String> letters, List<String> data) {
         for (int i = 0; i < data.size(); i++) {
             ItemBean itemBean = new ItemBean(data.get(i));
-            itemBeans.add(itemBean);
+
             if (DigitalUtil.isDigital(itemBean.getContent())) {
                 if (!letters.contains("#")) {
                     letters.add("#");
                 }
                 itemBean.setName("#");
+                itemBeans.add(itemBean);
                 continue;
             }
             String name = itemBean.getName();
@@ -39,13 +40,16 @@ public class FillNameAndSortUtil {
             } else {
                 letter = itemBean.getContent().substring(0,1).toUpperCase();
             }
+            System.out.println(letter);
             itemBean.setName(letter);
             if (!letters.contains(letter)) {
                 letters.add(letter);
             }
-            Collections.sort(itemBeans);
-            Collections.sort(letters);
+            itemBeans.add(itemBean);
+
         }
+        Collections.sort(itemBeans);
+        Collections.sort(letters);
 
     }
 }
